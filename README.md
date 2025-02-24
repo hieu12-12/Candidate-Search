@@ -1,34 +1,33 @@
 # GitHub Talent Scout
 
-A React application that helps recruiters find and manage potential candidates from GitHub. The application allows users to browse GitHub profiles, save interesting candidates, and manage their list of potential recruits.
+A modern React application designed to help recruiters discover and manage potential candidates from GitHub. This tool allows users to browse GitHub profiles, save promising candidates, and organize their recruitment pipeline efficiently.
 
-[Talent Scout Live Demo]()
+
+[Video Demo](https://www.youtube.com/watch?v=udfcvH4S2bI)
 
 ## Table of Contents
 
-- [GitHub Talent Scout](#github-talent-scout)
-  - [Table of Contents](#table-of-contents)
-  - [Features](#features)
-  - [Technologies Used](#technologies-used)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-  - [Usage](#usage)
-    - [Home Page (Candidate Search)](#home-page-candidate-search)
-    - [Saved Candidates Page](#saved-candidates-page)
-  - [Building for Production](#building-for-production)
-  - [Environment Variables](#environment-variables)
-  - [License](#license)
-  - [Acknowledgments](#acknowledgments)
-  - [Contact](#contact)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Usage](#usage)
+  - [Candidate Search](#candidate-search)
+  - [Saved Candidates](#saved-candidates)
+- [Building for Production](#building-for-production)
+- [Environment Variables](#environment-variables)
+- [License](#license)
+- [Acknowledgments](#acknowledgments)
+- [Contact](#contact)
 
 ## Features
 
-- Browse random GitHub profiles with detailed user information
+- Browse GitHub profiles with detailed user information
 - Search for specific GitHub users
-- Save potential candidates to a local list
-- View and manage saved candidates
-- Responsive design with dark theme
-- Real-time profile filtering and sorting
+- Save potential candidates for later review
+- Manage and organize saved candidates
+- Responsive dark-themed UI
+- Real-time filtering and sorting for saved candidates
 
 ## Technologies Used
 
@@ -41,57 +40,56 @@ A React application that helps recruiters find and manage potential candidates f
 
 ## Prerequisites
 
-Before running this project, you need:
+Before running this project, ensure you have:
 
-1. Node.js (version 18 or higher)
-2. A GitHub Personal Access Token with `user` scope permissions
+- **Node.js** (version 18 or higher)
+- A **GitHub Personal Access Token** with `user` scope permissions
 
 ## Installation
 
 1. Clone the repository:
 
-```bash
-git clone <repository-url>
-cd github-talent-scout
-```
+   ```bash
+   git clone <repository-url>
+   cd github-talent-scout
+   ```
 
 2. Install dependencies:
 
-```bash
-npm install
-```
+   ```bash
+   npm install
+   ```
 
-3. Create a `.env` file in the root directory:
+3. Set up environment variables by creating a `.env` file in the root directory:
 
-```bash
-VITE_GITHUB_TOKEN=your_github_token_here
-```
+   ```bash
+   VITE_GITHUB_TOKEN=your_github_token_here
+   ```
 
 4. Start the development server:
 
-```bash
-npm run dev
-```
+   ```bash
+   npm run dev
+   ```
 
 ## Usage
 
-### Home Page (Candidate Search)
+### Candidate Search
 
-- View one GitHub profile at a time
-- Click "+" to save a candidate to your list
-- Click "-" to skip to the next candidate
-- Search for specific GitHub users using the search bar
+- View GitHub profiles one at a time
+- Click `+` to save a candidate
+- Click `-` to skip to the next profile
+- Use the search bar to find specific GitHub users
 
-### Saved Candidates Page
+### Saved Candidates
 
-- View all saved candidates in a table format
-- Filter candidates by various criteria
-- Sort candidates by different fields
-- Remove candidates from your saved list
+- View all saved candidates in a structured list
+- Apply filters and sorting options
+- Remove candidates from your saved list when necessary
 
 ## Building for Production
 
-To create a production build:
+To generate an optimized production build:
 
 ```bash
 npm run build
@@ -111,14 +109,15 @@ Required environment variables:
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE.md file for details
+This project is licensed under the **MIT License**. See the `LICENSE.md` file for details.
 
 ## Acknowledgments
 
-- GitHub API for providing the data
+- GitHub API for data access
 - React and Vite communities for excellent documentation
-- TailwindCSS for the styling utilities
+- Tailwind CSS for streamlined styling
 
 ## Contact
 
 GitHub: [Hieu Tran](https://github.com/hieu12-12)
+
