@@ -1,6 +1,6 @@
 # GitHub Talent Scout
 
-A modern React application designed to help recruiters discover and manage potential candidates from GitHub. This tool allows users to browse GitHub profiles, save promising candidates, and organize their recruitment pipeline efficiently.
+A modern React application designed to help recruiters discover and manage potential candidates from GitHub. This tool allows users to browse GitHub profiles, save promising candidates, and organize their recruitment pipeline efficiently
 
 
 [Video Demo](https://www.youtube.com/watch?v=udfcvH4S2bI)
